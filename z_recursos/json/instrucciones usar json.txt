@@ -1,0 +1,27 @@
+// importar la librería GSON
+
+
+
+// el archivo plantilla.json debe ir en la carpeta assets del proyecto (Botón derecho > new > Folder > assets folder
+
+//El siguiente código debería usarse antes de configurar el recyclerview
+//Con este código, leemos el json local en la carpeta assets
+
+	var jsonString: String? = null
+        try {
+            jsonString = requireContext().assets.open("plantilla.json")
+                .bufferedReader()
+                .use { it.readText() }
+        } catch (ioException: IOException) {
+            ioException.printStackTrace()
+        }
+
+// si jsonString no es nulo, habremos parseado el JSON a tipo String
+// Con el siguiente código, usamos la librería JSON para convertir los datos a un listado de jugadores
+// Donde pone Player es el nombre de mi data class, ahí tendrás que poner el nombre de tu data class
+//por último, llamo a una función que he creado llamada configRecycler a la que le paso la variable plantilla, que es el listado que más tarde se enviará al adaptador
+	jsonString.let {
+            val lista = object : TypeToken<List<Player>>() {}.type
+            val plantilla = Gson().fromJson<List<Player>>(jsonString, lista)
+            configRecycler(plantilla)
+        }

@@ -1,0 +1,372 @@
+[
+  {
+    "id": 1,
+    "apodo": "Courtois",
+    "nombre": "Thibaut Courtois",
+    "posicion": "Portero",
+    "lugar de nacimiento": "Bree (Bélgica)",
+    "fecha de nacimiento": "07/01/1995",
+    "dorsal": 1,
+    "altura": 2.00,
+    "peso": 96,
+    "palmares": {
+      "Copa Mundial de Clubes": 1,
+      "Europa League": 1,
+      "Supercopa de España": 2,
+      "Supercopa de Europa": 1,
+      "Liga de España": 2,
+      "Liga de Inglaterra": 2,
+      "Liga de Bélgica": 1
+    },
+    "trayectoria": [
+      "Genk (2008-2011)",
+      "Atlético de Madrid (2011-2014)",
+      "Chelsea (2014-2018)",
+      "Real Madrid (2018 - )"
+    ],
+    "estadisticas": {
+      "P. Jugados": 40,
+      "Goles recibidos": 33,
+      "Paradas": 119,
+      "Minutos jugados": 3630
+    },
+    "foto": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/Courtois.png",
+    "fotoPerfil": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/perfil/Courtois_01.jpg",
+    "twitter": "https://twitter.com/thibautcourtois?lang=es"
+  },
+  {
+    "id": 2,
+    "apodo": "Carvajal",
+    "nombre": "Daniel Carvajal Ramos",
+    "posicion": "Defensa",
+    "lugar de nacimiento": "Leganés (Madrid)",
+    "fecha de nacimiento": "11/01/1992",
+    "dorsal": 2,
+    "altura": 1.73,
+    "peso": 73.5,
+    "palmares": {
+      "Champions League": 4,
+      "Copa Mundial de Clubes": 4,
+      "Supercopa de Europa": 3,
+      "Liga de España": 2,
+      "Copa del Rey": 1,
+      "Supercopa de España": 3,
+      "Campeonato de Europa sub-21": 1
+    },
+    "trayectoria": [
+      "Categorías inferiores del Real Madrid (ingresó el 01/07/2002) ",
+      "Bayer Leverkusen (2012-13)",
+      "Real Madrid (2013- )"
+    ],
+    "estadisticas": {
+      "P. Jugados": 26,
+      "Goles": 1,
+      "Asistencias": 1,
+      "Minutos jugados": 1809
+    },
+    "foto": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/Carvajal.png",
+    "fotoPerfil":"https://funcody.com/lib/img/imgProyectoAndroid/jugadores/perfil/Carvajal_01.jpg",
+    "twitter": "https://twitter.com/DaniCarvajal92?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+  },
+  {
+    "id": 3,
+    "apodo": "Militao",
+    "nombre": "Éder Gabriel Militão",
+    "posicion": "Defensa",
+    "lugar de nacimiento": "Sertãozinho (Brasil)",
+    "fecha de nacimiento": "18/01/1998",
+    "dorsal": 3,
+    "altura": 1.86,
+    "peso": 78,
+    "palmares": {
+      "Supercopa de España": 2,
+      "Liga de España": 1,
+      "Copa América": 1
+    },
+    "trayectoria": [
+      "Categorías inferiores del Sao Paulo (2011-2017)",
+      "Sao Paulo (2017-2018)",
+      "Oporto (2018-2019)",
+      "Real Madrid (2019- )"
+    ],
+    "estadisticas": {
+      "P. Jugados": 39,
+      "Goles": 2,
+      "Asistencias": 0,
+      "Minutos jugados": 3534
+    },
+    "foto": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/Militao.png",
+    "fotoPerfil": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/perfil/Militao_01.jpg",
+    "twitter": ""
+  },
+  {
+    "id": 4,
+    "apodo": "Alaba",
+    "nombre": "David Alaba",
+    "posicion": "Defensa",
+    "lugar de nacimiento": "Viena (Austria)",
+    "fecha de nacimiento": "24/06/1992",
+    "dorsal": 4,
+    "altura": 1.80,
+    "peso": 78,
+    "palmares": {
+      "Champions League": 2,
+      "Supercopa de España": 1,
+      "Copa Mundial de Clubes": 2,
+      "Supercopa de Europa": 2,
+      "Liga de Alemania": 10,
+      "Copa de Alemania": 6,
+      "Supercopa de Alemania": 6
+    },
+    "trayectoria": [
+      "Categorías inferiores del Sao Paulo (2011-2017)",
+      "Sao Paulo (2017-2018)",
+      "Oporto (2018-2019)",
+      "Real Madrid (2019- )"
+    ],
+    "estadisticas": {
+      "P. Jugados": 39,
+      "Goles": 2,
+      "Asistencias": 0,
+      "Minutos jugados": 3534
+    },
+    "foto": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/Alaba.png",
+    "fotoPerfil": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/perfil/Alaba_01.jpg",
+    "twitter": ""
+  },
+  {
+    "id": 5,
+    "apodo": "Mendy",
+    "nombre": "Ferland Mendy",
+    "posicion": "Defensa",
+    "lugar de nacimiento": "Meulan-en-Yvelines (Francia)",
+    "fecha de nacimiento": "08/06/1995",
+    "dorsal": 23,
+    "altura": 1.80,
+    "peso": 73,
+    "palmares": {
+      "Liga de España": 1,
+      "Supercopa de España": 6
+    },
+    "trayectoria": [
+      "Le Havre (2015-2017)",
+      "Olympique de Lyon (2017-2019)",
+      "Real Madrid (2019- )"
+    ],
+    "estadisticas": {
+      "P. Jugados": 26,
+      "Goles": 1,
+      "Asistencias": 2,
+      "Minutos jugados": 2077
+    },
+    "foto": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/Mendy.png",
+    "fotoPerfil": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/perfil/Mendy_01.jpg",
+    "twitter": ""
+  },
+  {
+    "id": 6,
+    "apodo": "Camavinga",
+    "nombre": "Eduardo Camavinga",
+    "posicion": "Centrocampista",
+    "lugar de nacimiento": "Cabinda (Angola)",
+    "fecha de nacimiento": "10/11/2002",
+    "dorsal": 25,
+    "altura": 1.82,
+    "peso": 68,
+    "palmares": {
+      "Supercopa de España": 1,
+      "Copa de Francia": 1
+    },
+    "trayectoria": [
+      "AGL-Drapeau Fougeres (2009-2013)",
+      "Categorías inferiores del Stade Rennais (2013-2019)",
+      "Stade Rennais (2019-2021)",
+      "Real Madrid (2021- )"
+    ],
+    "estadisticas": {
+      "P. Jugados": 28,
+      "Goles": 2,
+      "Asistencias": 1,
+      "Minutos jugados": 1058
+    },
+    "foto": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/Camavinga.png",
+    "fotoPerfil": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/perfil/Camavinga_01.jpg",
+    "twitter": "https://twitter.com/Camavinga?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+  },
+  {
+    "id": 7,
+    "apodo": "Kroos",
+    "nombre": "Toni Kroos",
+    "posicion": "Centrocampista",
+    "lugar de nacimiento": "Greifswald (Alemania)",
+    "fecha de nacimiento": "04/01/1990",
+    "dorsal": 8,
+    "altura": 1.83,
+    "peso": 86,
+    "palmares": {
+      "Champions League": 4,
+      "Copa Mundial de Clubes": 5,
+      "Supercopa de Europa": 4,
+      "Liga de España": 2,
+      "Supercopa de España": 3,
+      "Liga de Alemania": 3,
+      "Copa de Alemania": 3
+    },
+    "trayectoria": [
+      "Greifswalder (1997-02)",
+      "Hansa Rostock (2002-06)",
+      "Bayern de Múnich (2006-08)",
+      "Bayer Leverkusen (2008-10)",
+      "Bayern de Múnich (2010-14)",
+      "Real Madrid (2014- )"
+    ],
+    "estadisticas": {
+      "P. Jugados": 32,
+      "Goles": 3,
+      "Asistencias": 2,
+      "Minutos jugados": 2561
+    },
+    "foto": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/Kroos.png",
+    "fotoPerfil": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/perfil/Kroos_01.jpg",
+    "twitter": "https://twitter.com/tonikroos"
+  },
+  {
+    "id": 8,
+    "apodo": "Modric",
+    "nombre": "Luka Modrić",
+    "posicion": "Centrocampista",
+    "lugar de nacimiento": "Zadar (Croacia)",
+    "fecha de nacimiento": "09/09/1985",
+    "dorsal": 10,
+    "altura": 1.72,
+    "peso": 66.2,
+    "palmares": {
+      "Champions League": 4,
+      "Copa Mundial de Clubes": 4,
+      "Supercopa de Europa": 3,
+      "Liga de España": 2,
+      "Copa del Rey": 1,
+      "Supercopa de España": 4,
+      "Liga de Croacia": 3
+    },
+    "trayectoria": [
+      "Greifswalder (1997-02)",
+      "Hansa Rostock (2002-06)",
+      "Bayern de Múnich (2006-08)",
+      "Bayer Leverkusen (2008-10)",
+      "Bayern de Múnich (2010-14)",
+      "Real Madrid (2014- )"
+    ],
+    "estadisticas": {
+      "P. Jugados": 34,
+      "Goles": 3,
+      "Asistencias": 5,
+      "Minutos jugados": 2602
+    },
+    "foto": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/Modric.png",
+    "fotoPerfil": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/perfil/Modric_01.jpg",
+    "twitter": "https://twitter.com/lukamodric10"
+  },
+  {
+    "id": 9,
+    "apodo": "Benzema",
+    "nombre": "Karim Benzema",
+    "posicion": "Delantero",
+    "lugar de nacimiento": "Lyon (Francia)",
+    "fecha de nacimiento": "19/12/1987",
+    "dorsal": 9,
+    "altura": 1.85,
+    "peso": 81.2,
+    "palmares": {
+      "Champions League": 4,
+      "Copa Mundial de Clubes": 4,
+      "Supercopa de Europa": 3,
+      "Liga de España": 3,
+      "Copa del Rey": 2,
+      "Supercopa de España": 4,
+      "Liga de Naciones": 1
+    },
+    "trayectoria": [
+      "SC Bron Terraillon (1995-96)",
+      "Categorías inferiores del Olympique de Lyon (1996-04)",
+      "Olympique de Lyon (2004-09)",
+      "Real Madrid (2009- )"
+    ],
+    "estadisticas": {
+      "P. Jugados": 34,
+      "Goles": 32,
+      "Asistencias": 8,
+      "Minutos jugados": 2884
+    },
+    "foto": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/Benzema.png",
+    "fotoPerfil": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/perfil/Benzema_01.jpg",
+    "twitter": "https://twitter.com/Benzema?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+  },
+  {
+    "id": 10,
+    "apodo": "Asensio",
+    "nombre": "Marco Asensio Willemsen",
+    "posicion": "Delantero",
+    "lugar de nacimiento": "Palma de Mallorca",
+    "fecha de nacimiento": "21/01/1996",
+    "dorsal": 11,
+    "altura": 1.82,
+    "peso": 76,
+    "palmares": {
+      "Champions League": 2,
+      "Copa Mundial de Clubes":  3,
+      "Supercopa de Europa": 2,
+      "Liga de España":  2,
+      "Supercopa de España": 3,
+      "Medalla de Plata JJOO de Tokio":  1,
+      "Campeonato de Europa sub-19": 1
+    },
+    "trayectoria": [
+      "Categorías inferiores del Mallorca",
+      "Mallorca B / Mallorca (2013-14)",
+      "Mallorca (2014-15)",
+      "Espanyol (2015-16)",
+      "Real Madrid (2016- )"
+    ],
+    "estadisticas": {
+      "P. Jugados": 33,
+      "Goles": 10,
+      "Asistencias": 1,
+      "Minutos jugados": 1652
+    },
+    "foto": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/Asensio.png",
+    "fotoPerfil": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/perfil/Asensio_01.jpg",
+    "twitter": "https://twitter.com/marcoasensio10?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+  },
+  {
+    "id": 11,
+    "apodo": "Vinicius",
+    "nombre": "Vinicius Paixao de Oliveira Junior ",
+    "posicion": "Delantero",
+    "lugar de nacimiento": "São Gonçalo (Río de Janeiro, Brasil)",
+    "fecha de nacimiento": "12/07/2000",
+    "dorsal": 20,
+    "altura": 1.76,
+    "peso": 73,
+    "palmares": {
+      "Copa Mundial de Clubes" : 1,
+      "Liga de España" : 1,
+      "Supercopa de España" : 2,
+      "Campeonato Sudamericano sub-17" :  1
+    },
+    "trayectoria": [
+      "Categorías inferiores del Flamengo (2010-17)",
+      "Flamengo (2017-18)",
+      "Real Madrid (2018- )"
+    ],
+    "estadisticas": {
+      "P. Jugados": 39,
+      "Goles": 17,
+      "Asistencias": 10,
+      "Minutos jugados": 3287
+    },
+    "foto": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/Vinicius.png",
+    "fotoPerfil": "https://funcody.com/lib/img/imgProyectoAndroid/jugadores/perfil/Vinicius_01.jpg",
+    "twitter": ""
+  }
+]

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.InicioFragment"
+        android:id="@+id/frameLayout">
+
+    <ImageView
+            android:src="@drawable/img_inicio_fondo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:scaleType="centerCrop" />
+
+    <ImageView
+            android:src="@drawable/jugador_modric"
+            android:layout_width="240dp"
+            android:layout_height="420dp"
+            android:id="@+id/imagen_jugador_aleatorio"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="64dp"
+            android:layout_marginStart="32dp"
+            android:id="@+id/frag_inicio_content_bienvenido">
+
+        <TextView
+                android:text="Bienvenido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/frag_titulo_bienvenido"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                android:fontFamily="@font/roboto_bold" />
+
+        <TextView
+                android:text="Usuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/frag_inicio_usuario"
+                app:layout_constraintTop_toBottomOf="@+id/frag_titulo_bienvenido"
+                app:layout_constraintEnd_toEndOf="@+id/frag_titulo_bienvenido"
+                app:layout_constraintStart_toStartOf="@+id/frag_titulo_bienvenido"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+            android:src="@drawable/img_escudo_real_madrid"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/frag_escudo_madrid"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="96dp"
+            android:layout_marginStart="32dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

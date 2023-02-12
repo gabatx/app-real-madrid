@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Proyecto segundo trimestre</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="fecha">01.01.84</string>
+    <string name="input_vacio">El campo está vacío</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="ubicacion">Av.de Concha Espina, 1,28036 Madrid</string>
+    <string name="titulo_email">Correo electrónico</string>
+    <string name="email">presidencia@corp.realmadrid.com</string>
+    <string name="titulo_telefono">+34 91 398 43 00</string>
+    <string name="whatsapp">+34 637744494</string>
+    <string name="privacidad">Acepto la política de privacidad y lo terminos de servicio</string>
+
+    <array name="regalos">
+        <item>Entrada Vip</item>
+        <item>Cena restaurante</item>
+        <item>Camiseta Vinicius firmada</item>
+        <item>Cuota socio gratis</item>
+    </array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

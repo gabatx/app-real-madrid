@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/id_menu_lateral_cabecera"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/img_copas"
+        android:gravity="bottom"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:srcCompat="@drawable/img_escudo_real_madrid" />
+
+    <TextView
+            android:text="Bienvenido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintBottom_toTopOf="@+id/cabecera_usuario"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/negro"
+            android:fontFamily="@font/roboto_bold" />
+
+    <TextView
+            android:id="@+id/cabecera_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/usuario"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/negro"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintBottom_toTopOf="@+id/cabecera_fecha" />
+
+    <TextView
+            android:id="@+id/cabecera_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fecha"
+            android:textColor="@color/negro"
+            app:layout_constraintEnd_toEndOf="@+id/cabecera_usuario"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toBottomOf="@+id/cabecera_usuario"
+            app:layout_constraintStart_toStartOf="@+id/cabecera_usuario"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

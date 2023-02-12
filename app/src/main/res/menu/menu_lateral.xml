@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+            android:id="@+id/grupo1">
+        <item
+                android:id="@+id/nav_fragment_inicio"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Inicio" />
+    </group>
+    <group
+            android:id="@+id/grupo2"
+            android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_fragment_equipo"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Equipo" />
+    </group>
+
+    <group
+            android:id="@+id/grupo3"
+            android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_fragment_galeria"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Galería" />
+    </group>
+
+    <group
+            android:id="@+id/grupo4"
+            android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_fragment_contacto"
+                android:icon="@drawable/ic_launcher_foreground"
+                android:title="Contacto" />
+    </group>
+
+</menu>

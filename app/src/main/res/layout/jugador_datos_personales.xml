@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout_datos_personales">
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelineEndDatosPersonales"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="7dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelineStartDatosPersonales"
+            app:layout_constraintGuide_begin="7dp"
+            android:orientation="vertical" />
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelineCenterDatosPersonales"
+            app:layout_constraintGuide_percent="0.64"
+            android:orientation="vertical" />
+
+    <TextView
+            android:text="Datos personales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titulo_datos_personales"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guidelineStartDatosPersonales"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/negro"
+            android:textSize="20sp" />
+
+    <View
+            android:id="@+id/divider"
+            android:layout_width="0dp"
+            android:layout_height="3dp"
+            android:backgroundTint="@color/separador"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintStart_toStartOf="@+id/guidelineStartDatosPersonales"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineEndDatosPersonales"
+            app:layout_constraintTop_toBottomOf="@+id/titulo_datos_personales"
+            android:layout_marginTop="8dp" />
+
+    <TextView
+            android:text="Nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titulo_nombre"
+            app:layout_constraintTop_toBottomOf="@+id/divider"
+            app:layout_constraintStart_toStartOf="@+id/guidelineStartDatosPersonales"
+            android:textColor="@color/negro"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    <TextView
+            android:text="Peso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titulo_peso"
+            app:layout_constraintTop_toBottomOf="@+id/divider"
+            app:layout_constraintStart_toStartOf="@+id/guidelineCenterDatosPersonales"
+            android:textColor="@color/negro"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    <TextView
+            android:text="Altura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titulo_altura"
+            app:layout_constraintTop_toBottomOf="@+id/peso_datos_personales"
+            app:layout_constraintStart_toStartOf="@+id/guidelineCenterDatosPersonales"
+            android:textColor="@color/negro"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+    <TextView
+            android:text="Daniel Carvajal Ramos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombre_datos_personales"
+            app:layout_constraintTop_toBottomOf="@+id/titulo_nombre"
+            app:layout_constraintStart_toStartOf="@+id/guidelineStartDatosPersonales"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:ellipsize="end"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineCenterDatosPersonales" />
+
+    <TextView
+            android:text="73,5 kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/peso_datos_personales"
+            app:layout_constraintTop_toBottomOf="@+id/titulo_nombre"
+            app:layout_constraintStart_toStartOf="@+id/guidelineCenterDatosPersonales"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+    <TextView
+            android:text="1,73 m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/altura_datos_personales"
+            app:layout_constraintTop_toBottomOf="@+id/titulo_altura"
+            app:layout_constraintStart_toStartOf="@+id/guidelineCenterDatosPersonales"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp" />
+
+    <TextView
+            android:text="Lugar de nacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titulo_lugar"
+            app:layout_constraintTop_toBottomOf="@+id/nombre_datos_personales"
+            app:layout_constraintStart_toStartOf="@+id/guidelineStartDatosPersonales"
+            android:textColor="@color/negro"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+    <TextView
+            android:text="Fecha de nacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titulo_fecha"
+            app:layout_constraintTop_toBottomOf="@+id/lugar_nacimiento_datos_personales"
+            app:layout_constraintStart_toStartOf="@+id/guidelineStartDatosPersonales"
+            android:textColor="@color/negro"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+    <TextView
+            android:text="Posición"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titulo_posicion"
+            app:layout_constraintTop_toBottomOf="@+id/fecha_nacimiento_datos_personales"
+            app:layout_constraintStart_toStartOf="@+id/guidelineStartDatosPersonales"
+            android:textColor="@color/negro"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+    <TextView
+            android:text="Leganés (Madrid)"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/lugar_nacimiento_datos_personales"
+            app:layout_constraintTop_toBottomOf="@+id/titulo_lugar"
+            app:layout_constraintStart_toStartOf="@+id/guidelineStartDatosPersonales"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineCenterDatosPersonales"
+            android:ellipsize="end" />
+
+    <TextView
+            android:text="11/01/1992"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fecha_nacimiento_datos_personales"
+            app:layout_constraintTop_toBottomOf="@+id/titulo_fecha"
+            app:layout_constraintStart_toStartOf="@+id/guidelineStartDatosPersonales"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp" />
+
+    <TextView
+            android:text="Defensa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/posicion_datos_personales"
+            app:layout_constraintTop_toBottomOf="@+id/titulo_posicion"
+            app:layout_constraintStart_toStartOf="@+id/guidelineStartDatosPersonales"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

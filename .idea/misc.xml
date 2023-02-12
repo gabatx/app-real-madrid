@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/16_PROYECTO_2T/app/src/main/res/drawable/selector_colores_menu_lateral.xml" value="0.337" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/16_PROYECTO_2T/app/src/main/res/drawable/shape_boton_redondo.xml" value="0.1655" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/16_PROYECTO_2T/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/16_PROYECTO_2T/app/src/main/res/layout/activity_main.xml" value="0.33489583333333334" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/16_PROYECTO_2T/app/src/main/res/layout/cabecera.xml" value="0.33489583333333334" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/16_PROYECTO_2T/app/src/main/res/layout/fragment_contacto.xml" value="0.2722222222222222" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/16_PROYECTO_2T/app/src/main/res/layout/fragment_contacto_DiskStation_Apr-03-0506-2022_DownloadConflict.xml" value="0.33489583333333334" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/16_PROYECTO_2T/app/src/main/res/layout/fragment_equipo.xml" value="0.33489583333333334" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/16_PROYECTO_2T/app/src/main/res/layout/fragment_galeria.xml" value="0.33489583333333334" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/16_PROYECTO_2T/app/src/main/res/layout/fragment_jugador.xml" value="0.33489583333333334" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/16_PROYECTO_2T/app/src/main/res/layout/holder_galeria_miniatura.xml" value="0.33489583333333334" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/16_PROYECTO_2T/app/src/main/res/menu/menu_lateral.xml" value="0.33489583333333334" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/16_PROYECTO_2T/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1655" />
+        <entry key="app/src/main/res/drawable-v24/degradado_fondo_datos_holder_portero.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable-v24/degradado_fondo_datos_holder_potero.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable/background.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable/degradado_fondo_datos_centrocampista.xml" value="0.246" />
+        <entry key="app/src/main/res/drawable/degradado_fondo_datos_holder.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable/degradado_fondo_datos_holder_defensa.xml" value="0.246" />
+        <entry key="app/src/main/res/drawable/degradado_fondo_datos_holder_delantero.xml" value="0.246" />
+        <entry key="app/src/main/res/drawable/degrado_fondo_cabecera.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable/fondo_cabecera_login.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable/ic_flecha_derecha.xml" value="0.265" />
+        <entry key="app/src/main/res/drawable/selector_boton_contacto.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable/selector_colores_menu_lateral.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable/shape_boton_redondo.xml" value="0.3545" />
+        <entry key="app/src/main/res/font/roboto.xml" value="0.4395833333333333" />
+        <entry key="app/src/main/res/layout-v28/fragment_jugador.xml" value="0.409375" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/cabecera.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/contacto_footer.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_contacto.xml" value="0.409375" />
+        <entry key="app/src/main/res/layout/fragment_equipo.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_galeria.xml" value="0.409375" />
+        <entry key="app/src/main/res/layout/fragment_inicio.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_jugador.xml" value="0.2537037037037037" />
+        <entry key="app/src/main/res/layout/holder_galeria.xml" value="0.409375" />
+        <entry key="app/src/main/res/layout/holder_galeria_miniatura.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/holder_jugador.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/jugador_datos_personales.xml" value="0.35600425079702447" />
+        <entry key="app/src/main/res/menu/menu_lateral.xml" value="0.409375" />
+        <entry key="app/src/main/res/menu/menu_superior.xml" value="0.409375" />
+        <entry key="app/src/main/res/menu/otro_menu.xml" value="0.409375" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="negro">#333333</color>
+    <color name="pink">#F06292</color>
+    <color name="amarillo">#febe10</color>
+    <color name="rojo">#ee324e</color>
+    <color name="linea_input">#60778c</color>
+    <color name="linea_input_contacto">#616161</color>
+    <color name="boton_invitado">#60778c</color>
+    <color name="azul">#356897</color>
+    <color name="azul_transparente">#B407298F</color>
+    <color name="icono_twitter">#07298F</color>
+    <color name="azul_claro">#6eb9e4</color>
+    <color name="azul_holder">#5c90d4</color>
+    <color name="blanco_roto">#f5f5f5</color>
+    <color name="separador">#A78134</color>
+    <color name="grey">#8C8C8C</color>
+    <color name="gris_fondo_contacto">#3EBDBDBD</color>
+    <color name="gris_oscuro">#616161</color>
+    <color name="gris_fondo">#e0dedf</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blanco_transparente">#86FFFFFF</color>
+</resources>
